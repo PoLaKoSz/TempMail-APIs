@@ -8,7 +8,7 @@ namespace PoLaKoSz.TempMail.DataAccessLayer.Web
             : base(new HttpClientHandler(), disposeHandler: true)
         {
             DefaultRequestHeaders.Add("Accept", "*/*");
-            DefaultRequestHeaders.Add("User-Agent", "github.com PoLaKoSz Deezer API");
+            DefaultRequestHeaders.Add("User-Agent", "github.com PoLaKoSz TempMail-APIs");
         }
     }
 }

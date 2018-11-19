@@ -1,4 +1,4 @@
-﻿using PoLaKoSz.TempMail;
+﻿using PoLaKoSz.TempMail.Services;
 
 namespace PoLaKoSz.Samples.Console
 {
@@ -6,7 +6,11 @@ namespace PoLaKoSz.Samples.Console
     {
         static void Main(string[] args)
         {
-
+            var tmpMailService = new Tempm();
+            tmpMailService.NewMail().GetAwaiter().GetResult();
+            //tmpMailService.ReNew();
+            tmpMailService.ReFresh();
+            //tmpMailService.Delete();
         }
     }
 }

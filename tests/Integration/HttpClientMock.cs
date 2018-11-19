@@ -44,5 +44,17 @@ namespace PoLaKoSz.TempMail.Tests.Integration
 
             return Task.Run(() => httpResponse);
         }
+
+        public Task<HttpResponseMessage> PostAsync(Uri requestUri, HttpContent content)
+        {
+            LastCalledURL = requestUri;
+
+            var httpResponse = new HttpResponseMessage(HttpStatusCode.OK)
+            {
+                Content = new StringContent(ResponseFromServer)
+            };
+
+            return Task.Run(() => httpResponse);
+        }
     }
 }

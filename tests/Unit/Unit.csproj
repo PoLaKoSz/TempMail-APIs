@@ -7,7 +7,7 @@
 
     <AssemblyName>UnitTests</AssemblyName>
 
-    <RootNamespace>PoLaKoSz.Deezer.Tests.Unit</RootNamespace>
+    <RootNamespace>PoLaKoSz.TempMail.Tests.Unit</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

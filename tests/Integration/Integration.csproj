@@ -21,16 +21,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="StaticResources\Album\comments.json">
+    <None Update="StaticResources\Tempail\main_page.html">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="StaticResources\Album\fans.json">
+    <None Update="StaticResources\Tempm\has_emails.html">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="StaticResources\Album\info.json">
+    <None Update="StaticResources\Tempm\mail_selected.html">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="StaticResources\Album\tracks.json">
+    <None Update="StaticResources\Tempm\main_page.html">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

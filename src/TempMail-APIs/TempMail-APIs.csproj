@@ -11,11 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.8.10" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="EndPoints\" />
-    <Folder Include="Models\" />
   </ItemGroup>
 </Project>
